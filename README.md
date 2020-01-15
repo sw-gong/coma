@@ -30,6 +30,7 @@ The code is developed using Python 3.6 on Ubuntu 16.04. The models were trained 
 * [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric) (1.3.0)
 * [OpenMesh](https://github.com/nmaxwell/OpenMesh-Python) (1.1.3)
 * [MPI-IS Mesh](https://github.com/MPI-IS/mesh): We suggest to install this library from the source.
+* [tqdm](https://github.com/tqdm/tqdm)
 
 ## Interpolation Experiment
 Following the same split as described in the paper, the dataset is split in training and test samples with a ratio of 9:1. Run the script below to train and evaluet the model. The checkpoints of each epoch is saved in the corresponding output folder (specifed by the vairable ``exp_name``).  After training, it outputs the result of the "Mean Error with the Standard Deviation" as well as "Median Error", which are saved in the file ``euc_error.txt``.
